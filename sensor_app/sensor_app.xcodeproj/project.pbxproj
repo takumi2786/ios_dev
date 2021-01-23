@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1FE783F2202CF5E00F5A459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE783E2202CF5E00F5A459 /* AppDelegate.swift */; };
+		E1FE78412202CF5E00F5A459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE78402202CF5E00F5A459 /* ViewController.swift */; };
+		E1FE78442202CF5E00F5A459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FE78422202CF5E00F5A459 /* Main.storyboard */; };
+		E1FE78462202CF6000F5A459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FE78452202CF6000F5A459 /* Assets.xcassets */; };
+		E1FE78492202CF6000F5A459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FE78472202CF6000F5A459 /* LaunchScreen.storyboard */; };
+		E1FE78542202CF6000F5A459 /* sensor_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE78532202CF6000F5A459 /* sensor_appTests.swift */; };
+		E1FE785F2202CF6000F5A459 /* sensor_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE785E2202CF6000F5A459 /* sensor_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1FE78502202CF6000F5A459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FE78332202CF5E00F5A459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FE783A2202CF5E00F5A459;
+			remoteInfo = sensor_app;
+		};
+		E1FE785B2202CF6000F5A459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FE78332202CF5E00F5A459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FE783A2202CF5E00F5A459;
+			remoteInfo = sensor_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1FE783B2202CF5E00F5A459 /* sensor_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensor_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FE783E2202CF5E00F5A459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1FE78402202CF5E00F5A459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1FE78432202CF5E00F5A459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FE78452202CF6000F5A459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FE78482202CF6000F5A459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FE784A2202CF6000F5A459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FE784F2202CF6000F5A459 /* sensor_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensor_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FE78532202CF6000F5A459 /* sensor_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensor_appTests.swift; sourceTree = "<group>"; };
+		E1FE78552202CF6000F5A459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FE785A2202CF6000F5A459 /* sensor_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensor_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FE785E2202CF6000F5A459 /* sensor_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensor_appUITests.swift; sourceTree = "<group>"; };
+		E1FE78602202CF6000F5A459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FE78382202CF5E00F5A459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE784C2202CF6000F5A459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE78572202CF6000F5A459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1FE78322202CF5E00F5A459 = {
+			isa = PBXGroup;
+			children = (
+				E1FE783D2202CF5E00F5A459 /* sensor_app */,
+				E1FE78522202CF6000F5A459 /* sensor_appTests */,
+				E1FE785D2202CF6000F5A459 /* sensor_appUITests */,
+				E1FE783C2202CF5E00F5A459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FE783C2202CF5E00F5A459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE783B2202CF5E00F5A459 /* sensor_app.app */,
+				E1FE784F2202CF6000F5A459 /* sensor_appTests.xctest */,
+				E1FE785A2202CF6000F5A459 /* sensor_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FE783D2202CF5E00F5A459 /* sensor_app */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE783E2202CF5E00F5A459 /* AppDelegate.swift */,
+				E1FE78402202CF5E00F5A459 /* ViewController.swift */,
+				E1FE78422202CF5E00F5A459 /* Main.storyboard */,
+				E1FE78452202CF6000F5A459 /* Assets.xcassets */,
+				E1FE78472202CF6000F5A459 /* LaunchScreen.storyboard */,
+				E1FE784A2202CF6000F5A459 /* Info.plist */,
+			);
+			path = sensor_app;
+			sourceTree = "<group>";
+		};
+		E1FE78522202CF6000F5A459 /* sensor_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE78532202CF6000F5A459 /* sensor_appTests.swift */,
+				E1FE78552202CF6000F5A459 /* Info.plist */,
+			);
+			path = sensor_appTests;
+			sourceTree = "<group>";
+		};
+		E1FE785D2202CF6000F5A459 /* sensor_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE785E2202CF6000F5A459 /* sensor_appUITests.swift */,
+				E1FE78602202CF6000F5A459 /* Info.plist */,
+			);
+			path = sensor_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FE783A2202CF5E00F5A459 /* sensor_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FE78632202CF6000F5A459 /* Build configuration list for PBXNativeTarget "sensor_app" */;
+			buildPhases = (
+				E1FE78372202CF5E00F5A459 /* Sources */,
+				E1FE78382202CF5E00F5A459 /* Frameworks */,
+				E1FE78392202CF5E00F5A459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sensor_app;
+			productName = sensor_app;
+			productReference = E1FE783B2202CF5E00F5A459 /* sensor_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1FE784E2202CF6000F5A459 /* sensor_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FE78662202CF6000F5A459 /* Build configuration list for PBXNativeTarget "sensor_appTests" */;
+			buildPhases = (
+				E1FE784B2202CF6000F5A459 /* Sources */,
+				E1FE784C2202CF6000F5A459 /* Frameworks */,
+				E1FE784D2202CF6000F5A459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FE78512202CF6000F5A459 /* PBXTargetDependency */,
+			);
+			name = sensor_appTests;
+			productName = sensor_appTests;
+			productReference = E1FE784F2202CF6000F5A459 /* sensor_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1FE78592202CF6000F5A459 /* sensor_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FE78692202CF6000F5A459 /* Build configuration list for PBXNativeTarget "sensor_appUITests" */;
+			buildPhases = (
+				E1FE78562202CF6000F5A459 /* Sources */,
+				E1FE78572202CF6000F5A459 /* Frameworks */,
+				E1FE78582202CF6000F5A459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FE785C2202CF6000F5A459 /* PBXTargetDependency */,
+			);
+			name = sensor_appUITests;
+			productName = sensor_appUITests;
+			productReference = E1FE785A2202CF6000F5A459 /* sensor_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FE78332202CF5E00F5A459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Takumi ";
+				TargetAttributes = {
+					E1FE783A2202CF5E00F5A459 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E1FE784E2202CF6000F5A459 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1FE783A2202CF5E00F5A459;
+					};
+					E1FE78592202CF6000F5A459 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1FE783A2202CF5E00F5A459;
+					};
+				};
+			};
+			buildConfigurationList = E1FE78362202CF5E00F5A459 /* Build configuration list for PBXProject "sensor_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FE78322202CF5E00F5A459;
+			productRefGroup = E1FE783C2202CF5E00F5A459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FE783A2202CF5E00F5A459 /* sensor_app */,
+				E1FE784E2202CF6000F5A459 /* sensor_appTests */,
+				E1FE78592202CF6000F5A459 /* sensor_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FE78392202CF5E00F5A459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FE78492202CF6000F5A459 /* LaunchScreen.storyboard in Resources */,
+				E1FE78462202CF6000F5A459 /* Assets.xcassets in Resources */,
+				E1FE78442202CF5E00F5A459 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE784D2202CF6000F5A459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE78582202CF6000F5A459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FE78372202CF5E00F5A459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FE78412202CF5E00F5A459 /* ViewController.swift in Sources */,
+				E1FE783F2202CF5E00F5A459 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE784B2202CF6000F5A459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FE78542202CF6000F5A459 /* sensor_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE78562202CF6000F5A459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FE785F2202CF6000F5A459 /* sensor_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1FE78512202CF6000F5A459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FE783A2202CF5E00F5A459 /* sensor_app */;
+			targetProxy = E1FE78502202CF6000F5A459 /* PBXContainerItemProxy */;
+		};
+		E1FE785C2202CF6000F5A459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FE783A2202CF5E00F5A459 /* sensor_app */;
+			targetProxy = E1FE785B2202CF6000F5A459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1FE78422202CF5E00F5A459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FE78432202CF5E00F5A459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FE78472202CF6000F5A459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FE78482202CF6000F5A459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FE78612202CF6000F5A459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1FE78622202CF6000F5A459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FE78642202CF6000F5A459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7RY5UKJU;
+				INFOPLIST_FILE = sensor_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi-web.sensor-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1FE78652202CF6000F5A459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7RY5UKJU;
+				INFOPLIST_FILE = sensor_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi-web.sensor-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1FE78672202CF6000F5A459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7RY5UKJU;
+				INFOPLIST_FILE = sensor_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi-web.sensor-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sensor_app.app/sensor_app";
+			};
+			name = Debug;
+		};
+		E1FE78682202CF6000F5A459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7RY5UKJU;
+				INFOPLIST_FILE = sensor_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi-web.sensor-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sensor_app.app/sensor_app";
+			};
+			name = Release;
+		};
+		E1FE786A2202CF6000F5A459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7RY5UKJU;
+				INFOPLIST_FILE = sensor_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi-web.sensor-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sensor_app;
+			};
+			name = Debug;
+		};
+		E1FE786B2202CF6000F5A459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7RY5UKJU;
+				INFOPLIST_FILE = sensor_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi-web.sensor-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sensor_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FE78362202CF5E00F5A459 /* Build configuration list for PBXProject "sensor_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE78612202CF6000F5A459 /* Debug */,
+				E1FE78622202CF6000F5A459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FE78632202CF6000F5A459 /* Build configuration list for PBXNativeTarget "sensor_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE78642202CF6000F5A459 /* Debug */,
+				E1FE78652202CF6000F5A459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FE78662202CF6000F5A459 /* Build configuration list for PBXNativeTarget "sensor_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE78672202CF6000F5A459 /* Debug */,
+				E1FE78682202CF6000F5A459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FE78692202CF6000F5A459 /* Build configuration list for PBXNativeTarget "sensor_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE786A2202CF6000F5A459 /* Debug */,
+				E1FE786B2202CF6000F5A459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FE78332202CF5E00F5A459 /* Project object */;
+}
